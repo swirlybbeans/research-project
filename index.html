@@ -1,77 +1,254 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <meta charset="utf-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <title></title>
-       <meta name="description" content="">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <!-- STYLE SHEETS -->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style.css">
-       <!-- JAVASCRIPT -->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   </head>
-   <body>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- STYLE SHEETS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <!-- JAVASCRIPT -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <body>
 
 
 
-        <!-- NAVIGATION -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">FISH A WHILE LAKES</a>
-              <button class="navbar-toggler" class="fw-lighter" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                      <a class="nav-link" href="#">what you might catch</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">gallery</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                      <a class="nav-link" href="#">contact us</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FISH A WHILE LAKES</a>
+            <button class="navbar-toggler" class="fw-lighter" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">What you might catch</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
       </nav>
 
 
 
-                <!-- HERO SECTION START -->
-    <div class="hero-section video-hero py-5 text-light">
-      <!-- START OF VIDEO ELEMENT -->
-      <video id="background-video" playsinline autoplay loop muted>
-        <source src="media/bg-video.mp4" type="video/mp4">
-      </video>
-      <!-- END OF VIDEO ELEMENT -->
-      <main class="container py-5">
-        <div class="p-5 rounded">
-          <h1>Fish A While Lakes </h1>
-          <p class="lead">
-            Life is better on the water.
+      <!-- HERO SECTION START -->
+      <div class="hero-section video-hero py-5 text-light">
+        <!-- START OF VIDEO ELEMENT -->
+        <video id="background-video" playsinline autoplay loop muted>
+          <source src="media/bg-video.mp4" type="video/mp4">
+        </video>
+        <!-- END OF VIDEO ELEMENT -->
+        <main class="container py-5">
+          <div class="p-5 rounded">
+            <h1>Fish A While Lakes </h1>
+            <p class="lead">
+              Life is better on the water.
+            </p>
+            <a class="btn btn-lg btn-dark" href="#" role="button"
+              >About Us &raquo;</a
+            >
+          </div>
+        </main>
+      </div>
+      
+      <!-- HERO SECTION END -->
+
+
+
+      <!--ABOUT SECTION-->
+      <div class="container py-5" id="about">
+        <div class="row">
+          <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+          <p>
+            Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+            mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+            Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+            dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+            lacinia justo vel eleifend feugiat.
           </p>
-          <a class="btn btn-lg btn-dark" href="#" role="button"
-            >View navbar docs &raquo;</a
-          >
-        </div>
-      </main>
-    </div>
-    <!-- HERO SECTION END -->
-
-
-
-
   
-   </body>
+          <p>
+            In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+            ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+            fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+            sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+            mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+            ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+            Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+            a congue urna. Mauris eget lacus quam.
+          </p>
+        </div>
+      </div>
+      <!--ABOUT  SECTION END-->
+
+
+
+      <!--GALLERY SECTION-->
+
+      <!--GALLERY SECTION END-->
+
+
+
+      <!--WHAT YOU MIGHT CATCH-->
+      <div class="container py-5" id="tabs">
+        <div class="row py-5">
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Home</h4>
+                        <p>
+                          Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                          mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                          Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                          dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                          lacinia justo vel eleifend feugiat.
+                        </p>
+                
+                        <p>
+                          In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                          ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                          fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                          sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                          mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                          ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                          Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                          a congue urna. Mauris eget lacus quam.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Profile</h4>
+                            <p>
+                                In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                                ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                                fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                                sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                                mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                                ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                                Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                                a congue urna. Mauris eget lacus quam.
+                            </p>
+                            <p>
+                              Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                              mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                              Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                              dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                              lacinia justo vel eleifend feugiat.
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Contacts</h4>
+                            <p>
+                              Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                              mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                              Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                              dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                              lacinia justo vel eleifend feugiat.
+                            </p>
+                    
+                            <p>
+                              In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                              ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                              fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                              sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                              mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                              ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                              a congue urna. Mauris eget lacus quam.
+                            </p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+      <!--WHAT YOU MIGHT CATCH END-->
+
+
+      <!--FOOTER-->
+      <div class="bg-dark text-white py-5 footer">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 1</h3>
+                <ul class="text-white-50">
+                    <li>Lorem ipsum dalor</li>
+                    <li>Site amet</li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 2</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 3</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 4</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--FOOTER-->
+      
+
+      
+      <!-- BACK TO TOP START -->
+      <a href="#nav">
+      <i class="bi bi-arrow-up-circle-fill to-top text-black"></i>
+      </a>
+      <!-- BACK TO TOP START -->
+
+    </body>
 </html>
